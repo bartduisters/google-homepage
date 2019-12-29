@@ -1,0 +1,95 @@
+body, html{
+    font-size: small;
+    font-style: arial, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.tekstbox{
+    border-radius: 22px;
+}
+li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    opacity: 0.75;
+    font-size: 14px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+}
+.tekstbox{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 34px;
+    line-height: 34px;
+    margin-top: 22px;
+    font: 16px arial, sans-serif;
+    
+}
+.knoppen{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(231, 230, 230);
+}
+.knop1{
+    position: fixed;
+    left: 40%;
+    width: 150px;
+    height: 36px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.knop2{
+    position: fixed;
+    left: 52%;
+    width: 150px;
+    height: 36px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.groep2{
+    float: right;
+    padding-right: 10px;
+}
+#signinknop{
+    float: right;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4387fd;
+    color: white;
+    border-radius: 2px;
+    line-height: 28px;
+}
